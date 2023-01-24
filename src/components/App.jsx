@@ -11,7 +11,7 @@ export const App = () => {
         color: '#010101',
       }}
     >
-      <Section title="Привет Макс " />
+      <Section title="Pleas leave feedback" />
     </div>
   );
 };
