@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 export default function Section({ title, children }) {
   return (
-    <section>
+    <section className={css.section}>
       <h2 className={css.title}>{title}</h2>
       {children}
     </section>
